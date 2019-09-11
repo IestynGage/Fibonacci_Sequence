@@ -3,7 +3,7 @@ This program gets number at certain point in the fibonacci sequence. There are t
 
 * Recursion, this technique involves algorithm calling it self on small part of the problem to solve the whole problem.
 
-* Dynamic Programming, this technique involves breaking down the problem to smaller problem so that it can be solved. Then the algorithm stores those solutions to smaller problems so that it can make final solution.
+* Dynamic Programming, this technique involves breaking down the problem to sub-problem so that it can be solved. Then the algorithm stores those solutions to sub-problems so that it can make final solution.
 
 Below is a table of time it took to process each function with each input size. Unit is in seconds
 
