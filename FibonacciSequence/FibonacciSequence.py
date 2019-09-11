@@ -9,7 +9,11 @@ def fibonacciDP(sequenceNumber):
     Return:
         {integer} the number from fibonacci sequence
     """
+    if(sequenceNumber<0):
+        return 0
 
+    if(sequenceNumber<2):
+        return 1
 
     sequenceList = [None] * sequenceNumber
     sequenceList[0] = 1
@@ -68,4 +72,3 @@ def timeComparison(testNumber):
     print("The Recursion technique took {0:10.8f} seconds to solve problem".format((recursionTime)))
     print("----------------------------------------------------")
 
-timeComparison(34)
